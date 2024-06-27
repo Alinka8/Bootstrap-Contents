@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Images and Layouts</title>
+    <!-- Bootstrap CSS -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <!-- Task 1: Responsive Images -->
+      <h2>Responsive Images</h2>
+      <img src="mountains.jpg" class="img-fluid" alt="Responsive Image 1" />
+      <img
+        src="mountains.jpg"
+        class="img-fluid rounded"
+        alt="Responsive Image 2"
+      />
+      <img
+        src="mountains.jpg"
+        class="img-fluid rounded-circle"
+        alt="Responsive Image 3"
+      />
+
+      <!-- Task 2: Grid Layout for Image Gallery -->
+      <h2 class="mt-5">Image Gallery</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 1" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 2" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 3" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 4" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 5" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="sunset.jpg" class="img-fluid" alt="Gallery Image 6" />
+        </div>
+      </div>
+
+      <!-- Task 3: Responsive Footer -->
+      <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+          <p>&copy; 2024 Tech Solutions. All rights reserved.</p>
+          <p>
+            <a href="#" class="text-white">Contact</a> |
+            <a href="#" class="text-white">Privacy Policy</a> |
+            <a href="#" class="text-white">Terms of Service</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
